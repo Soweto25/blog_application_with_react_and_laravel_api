@@ -22,10 +22,10 @@ const BlogCard = ({ blog }) => {
   }
 
   return (
-    <div className="col-12 col-md-2 col-lg-3">
-      <div className="card border-0 shadow-lg">
-        <img src={showImage(blog.image)} alt="" className='card-img-top' />
-        <div className="card-body">
+    <div className="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+      <div className="card border-0 shadow-lg text-align-center">
+        <img src={showImage(blog.image)} alt="" className='img-fluid card-img-top' />
+        <div className="card-body text-align-center">
           <h2 className='h5'>{blog.title}</h2>
           <p>{blog.shortDesc}</p>
           <div className="d-flex justify-content-between">
@@ -50,6 +50,7 @@ const BlogCard = ({ blog }) => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -2,6 +2,15 @@ import React, { useState, useEffect } from 'react'; // Add useEffect to the impo
 import BlogCard from './BlogCard'; // Ensure the correct path to BlogCard
 
 const Blogs = () => {
+  const style = {
+   ' margin-bottom': '20px',
+    'text-align': 'center',
+    'box-shadow': 'rgba(0, 0, 0, 0.1) 0px 2px 15px',
+    'overflow': 'hidden',
+    'border-radius': '5px',
+    'background': 'rgb(255, 255, 255)',
+  }
+
   const [blogs, setBlogs] = useState([]);
   const [keyword, setKeyword] = useState([]);
 
@@ -57,7 +66,42 @@ const Blogs = () => {
         {blogs && blogs.map(blog => (
           <BlogCard key={blog.id} blog={blog} /> // Pass the entire blog object as a prop
         ))}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };

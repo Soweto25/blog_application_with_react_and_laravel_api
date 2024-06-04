@@ -14,7 +14,6 @@ Route::post('/blogs/{id}', [BlogController::class, 'update']);
 
 Route::delete('/blogs/{id}', [BlogController::class, 'destroy']);
 
-
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
