@@ -1,3 +1,4 @@
+// Edit blog post component
 import React, { useState, useEffect } from 'react'
 import Editor from 'react-simple-wysiwyg'
 import { useForm } from "react-hook-form"
