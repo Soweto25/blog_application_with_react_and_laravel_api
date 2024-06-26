@@ -1,3 +1,4 @@
+// The is the blog posts card component for each individual blog posts stored in the database
 import React from 'react';
 
 const BlogCard = ({ blog }) => {
