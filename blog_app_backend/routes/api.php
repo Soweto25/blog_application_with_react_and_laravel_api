@@ -5,6 +5,7 @@ use App\Http\Controllers\TempImageController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+// This is the api endpoints routes 
 Route::get('/blogs', [BlogController::class, 'index']);
 Route::post('/blogs', [BlogController::class, 'store']);
 Route::post('/save-temp-image', [TempImageController::class, 'store']);
