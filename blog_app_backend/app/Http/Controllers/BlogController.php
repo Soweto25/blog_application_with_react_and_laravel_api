@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Validator;
 
 class BlogController extends Controller
 {
-    //This method will return all blogs
+    //This method will return all blogs in the database
     public function index(Request $request){
 
         $blogs = Blog::orderBy('created_at', 'DESC');
