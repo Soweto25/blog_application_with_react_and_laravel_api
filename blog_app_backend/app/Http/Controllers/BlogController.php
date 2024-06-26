@@ -177,7 +177,7 @@ class BlogController extends Controller
         }
 
 
-        //Delete blog from db
+        //Delete blog from database
         $blog->delete();
 
         return response()->json([
