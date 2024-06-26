@@ -131,7 +131,7 @@ class BlogController extends Controller
         $blog->shortDesc = $request->shortDesc;
 
 
-           // Check if a new image is uploaded
+           // Check if a new image is uploaded into the database
         if($request->hasFile('image')){
 
              // Delete the old image if it exists
