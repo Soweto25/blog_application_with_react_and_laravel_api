@@ -98,7 +98,7 @@ class BlogController extends Controller
     }
 
 
-    // This method will update a blog
+    // This method will update a blog posts in the database
     public function update($id, Request $request){
 
         $blog = Blog::find($id);
