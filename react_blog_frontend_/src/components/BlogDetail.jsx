@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react' // Added missing imports
+// This is the blog post detail component
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 const BlogDetail = () => {
