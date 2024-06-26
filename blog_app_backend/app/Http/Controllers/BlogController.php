@@ -57,7 +57,7 @@ class BlogController extends Controller
 
     }
 
-    // This method will store a blog
+    // This method will store a blog posts into the database
     public function store(Request $request){
 
         $validator = Validator::make($request->all(), [
