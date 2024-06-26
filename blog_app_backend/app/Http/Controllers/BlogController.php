@@ -32,7 +32,7 @@ class BlogController extends Controller
 
     }
 
-    // this method will return a single blog
+    // this method will return a single blog in the database
     public function show($id){
 
         $blog = Blog::find($id);
