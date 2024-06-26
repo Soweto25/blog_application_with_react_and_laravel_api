@@ -1,3 +1,4 @@
+// This is the main app entry
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blogs from './components/Blogs'
