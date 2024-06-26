@@ -28,7 +28,7 @@ class TempImageController extends Controller
         $ext = $image->getClientOriginalExtension();
         $imageName = time().'.'.$ext;
 
-        //Store image info in database
+        //Store image info in the database
 
         $tempImage = new TempImage();
         $tempImage->name = $imageName;
