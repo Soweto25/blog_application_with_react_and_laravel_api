@@ -160,7 +160,7 @@ class BlogController extends Controller
 
 
 
-    // This method will delete a blog
+    // This method will delete a blog posts in the database
     public function destroy($id){
         $blog = Blog::find($id);
 
