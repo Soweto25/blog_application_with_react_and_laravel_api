@@ -1,5 +1,6 @@
+// Blog posts Components
 import React, { useState, useEffect } from 'react'; // Add useEffect to the import statement
-import BlogCard from './BlogCard'; // Ensure the correct path to BlogCard
+import BlogCard from './BlogCard'; 
 
 const Blogs = () => {
   const style = {
@@ -67,41 +68,7 @@ const Blogs = () => {
           <BlogCard key={blog.id} blog={blog} /> // Pass the entire blog object as a prop
         ))}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
 };
