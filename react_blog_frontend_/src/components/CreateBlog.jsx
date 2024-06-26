@@ -1,3 +1,4 @@
+// Create blog post component
 import React, { useState } from 'react'
 import Editor from 'react-simple-wysiwyg'
 import { useForm } from "react-hook-form"
