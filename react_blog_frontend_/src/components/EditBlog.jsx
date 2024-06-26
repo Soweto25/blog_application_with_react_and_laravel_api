@@ -48,7 +48,7 @@ const EditBlog = () => {
             }
 
             const result = await res.json()
-            // console.log(result)
+            // console.log(result) for debugging purpose
             setBlog(result.data)
             reset(result.data)
             setHtml(result.data.description) // Set HTML content separately
